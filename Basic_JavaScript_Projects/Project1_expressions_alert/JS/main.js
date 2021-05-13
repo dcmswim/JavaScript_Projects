@@ -19,6 +19,8 @@ var A = 15 //assigns variable a value
 var B = 20 //assigns variable a value
 document.write(A+B); //displays output of the addition of 2 variables
 
+document.write("This sentence " + "was created with " + "concatenated strings.")
+
 
 
 
