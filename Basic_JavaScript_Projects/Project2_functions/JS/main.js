@@ -9,3 +9,5 @@ function buttonText2() { //defines function
     sentence += "JavaScript!" //concatenates additional string to variable on previous line
     document.getElementById("Button_Text2").innerHTML = sentence; //gets element with id "Button_Text2"
 }
+
+
