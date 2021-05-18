@@ -49,7 +49,7 @@ document.write(W);
 document.write("<br>" + W); // displays global value of W 
 
 
-function test_function() {
+function test_function1() {
     let instrument = { //creates object
         type: "Guitar", //defines properties of object
         brand: "Fender",
@@ -61,6 +61,8 @@ function test_function() {
     };
     document.getElementById("Instrument_object").innerHTML = instrument.description();
 }
+
+
 
 
 
