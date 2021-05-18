@@ -48,17 +48,19 @@ document.write(W);
 }
 document.write("<br>" + W); // displays global value of W 
 
-let instrument = { //creates object
-    type: "Guitar", //defines properties of object
-    brand: "Fender",
-    model: "Stratocaster",
-    color: "black",
-    description : function() { //defines a method
-        return "The instrument is a " + this.type + ". Specifically a " + this.color + " " + this.brand + " " + this.model + ".";
-        }
-};
-document.getElementById("Instrument_object").innerHTML = instrument.description();
 
+function test_function() {
+    let instrument = { //creates object
+        type: "Guitar", //defines properties of object
+        brand: "Fender",
+        model: "Stratocaster",
+        color: "black",
+        description : function() { //defines a method
+            return "The instrument is a " + this.type + ". Specifically a " + this.color + " " + this.brand + " " + this.model + ".";
+            }
+    };
+    document.getElementById("Instrument_object").innerHTML = instrument.description();
+}
 
 
 
