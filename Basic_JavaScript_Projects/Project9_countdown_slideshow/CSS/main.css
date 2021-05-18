@@ -12,7 +12,9 @@
     display: none;
 }
 
-
+img {
+    vertical-align: middle;
+}
 
 /*** NEXT AND PREVIOUS BUTTONS ***/
 .prev, .next {
