@@ -1,0 +1,34 @@
+/*** CONTAINER FOR TABLE AND CANVAS ***/
+.center-container {
+    width: 680px;
+    margin: 0 auto; /* CENTERS CONTAINER */
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse; /* COLLAPSE TABLE BORDERS INTO 1 BORDER */
+    border-style: hidden; /* HIDES OUTER BORDER OF TABLE */
+}
+
+td {
+    cursor: pointer;
+    border: 4px solid rgba(20, 3, 252, 0.8);
+    padding: 0px; 
+    width: 187px; /* changed width to match new image */
+    height: 187px; /* changed width to match new image */
+}
+
+canvas {
+    position: absolute; /* SETS CANVAS POSITION TO TOP LEFT CORNER OF CONTAINER*/
+    z-index: 10;
+    pointer-events: none; /*MAKES CANVAS INVISIBLE*/
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+
