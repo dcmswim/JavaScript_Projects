@@ -1,0 +1,78 @@
+/*styling for background of menu*/
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:floralwhite;
+}
+/*styling for menu container*/
+/*had to increase width of frmMenu to 600px to fit all 3 menu columns (200px ea)*/
+#frmMenu {
+    width: 600px;
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float:right;
+}
+
+/*next 3 style the containers for each menu column*/
+.left {
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float:left;
+}
+
+/*styling for area that displays selected items and price*/
+#cart {
+    top:0;margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+/*button styling*/
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+}
+
+
+/*general styling of text elements*/
+body {
+    background-color:rgb(216, 139, 139);
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0)
+}
+
+h3 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkslategray;
+}
+
