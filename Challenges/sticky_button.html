@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Challenges</title>
+        <link rel="stylesheet" type="text/css" href="popup.css">
+        <script src="popup.js" defer></script>
+        
+    </head>
+    <body>
+        <h2>Example of a popup form</h2>
+        <p>Click the button in the lower right to open the form.</p>
+        <hr>
+        <br><br>
+        <p>Button and form will stay in the lower right hand side of the screen due to "sticky" positioning in CSS.</p>
+        <hr>
+        <p>Sample Text</p>
+        <br><br><br><br><br><br><br><br><br><br>
+        <p>More Sample Text</p>
+        <br><br><br><br><br><br><br><br><br><br>
+        <p>Sample Text</p>
+        <br><br><br><br><br><br><br><br><br><br>
+        <p>More Sample Text</p>
+        <br><br><br><br><br><br><br><br><br><br>
+        <p>Sample Text</p>
+        <br><br><br><br><br><br><br><br><br><br>
+        <p>More Sample Text</p>
+        
+        <div class="sticky">
+            <button class="open-button" onclick="openForm()">Open Form</button>
+
+            <div class="form-popup" id="myForm">
+                <form action="" class="form-container">
+                    <h1>Login</h1>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" class="btn">Login</button>
+                    <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+        </div>
+        
+        
+    
+        
+        
+
+    </body>
+</html>

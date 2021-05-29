@@ -1,0 +1,30 @@
+/*CREATES MOVEMENT ANIMATION FOR SPECIFIED CLASS */
+.movebox {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    position: relative;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    from {top: 0px; background: purple; width: 100px;}
+    to {top: 300px; background: blue; width: 350px;}
+}
+
+img {
+    animation: zoomin 5s infinite;
+}
+
+/*CREATES ZOOM IN/ZOOM OUT ANIMATION*/
+@keyframes zoomin {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.4, 1.4);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
